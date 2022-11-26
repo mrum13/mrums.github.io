@@ -992,8 +992,16 @@ p {
 .single-work {
   position: relative; }
   .single-work .work-image img {
+    height: 360px;
+    width: 360px; 
+    object-fit: contain;
+    border-radius: 25%;
+    padding: 16px;
+  }
+  .single-work .work-image-skill img {
     height: 100%;
     width: 100%; 
+    object-fit: contain;
     border-radius: 25%;
     padding: 16px;
   }
